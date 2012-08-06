@@ -6,26 +6,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-	<title></title>
-	<telerik:RadStyleSheetManager id="RadStyleSheetManager1" runat="server" />
+	<title>DTS</title>
 </head>
-<body>
+<body style="height:100%">
     <form id="form1" runat="server">
-	<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
-		<Scripts>
-			<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
-			<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
-		</Scripts>
-	</telerik:RadScriptManager>
-	<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
-	</telerik:RadAjaxManager>
- 
-	<telerik:RadSkinManager ID="RadSkinManager1" Runat="server" Skin="Black">
-	</telerik:RadSkinManager>
-	<div>
-
-	</div>
-	<cc1:GMap ID="GMap1" runat="server" />
+        <cc1:GMap ID="GMap1" runat="server" Height="600px" Width="100%"  />	
 	</form>
 </body>
 </html>
